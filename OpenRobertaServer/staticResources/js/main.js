@@ -232,7 +232,9 @@ function init() {
         tutorialController.init();
         userGroupController.init();
         notificationController.init();
-        // nnController.init();
+        // NN stuff START
+        nnController.init();
+        // NN stuff END
 
         $(".cover").fadeOut(100, function() {
             if (guiStateController.getStartWithoutPopup()) {
