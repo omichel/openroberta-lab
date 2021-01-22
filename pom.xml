@@ -117,7 +117,7 @@
             </dependency>
             <dependency>
                 <groupId>de.fhg.iais.openroberta</groupId>
-                <artifactId>RaspberryPi</artifactId>
+                <artifactId>RobotRaspberryPi</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
